@@ -1,0 +1,26 @@
+:root{--bg:#fbf8f1;--ink:#24301f;--muted:#5c6753;--green:#3f6b2f;--card:#fff;--line:#e4dfd1;--accent:#e08a1e}
+@media (prefers-color-scheme:dark){:root{--bg:#171c14;--ink:#eef0e8;--muted:#a9b3a0;--green:#8fc474;--card:#20271c;--line:#333c2e;--accent:#f0a23c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 system-ui,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px}
+header{padding:20px 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{font-weight:700;font-size:1.15rem;color:var(--green);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+nav a:hover{color:var(--ink)}
+.hero{padding:56px 0 40px}
+h1{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.15;margin:0 0 12px}
+.hero p{color:var(--muted);max-width:600px;margin:0 0 20px}
+.btn{display:inline-block;background:var(--green);color:var(--bg);padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+section{padding:32px 0}
+h2{margin:0 0 16px}
+.market{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:20px}
+.market h3{margin:0}.meta{color:var(--muted);font-size:.92rem;margin:4px 0 12px}
+.stalls{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.stall{border:1px solid var(--line);border-radius:10px;padding:14px;position:relative}
+.stall h4{margin:0 0 2px}.sells{color:var(--green);font-size:.9rem;font-weight:600}
+.badge{position:absolute;top:10px;right:10px;background:var(--accent);color:#1a1a1a;font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:99px}
+.stall p{margin:8px 0 0;font-size:.95rem}
+.sponsor{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
+.sponsor ul{padding-left:20px;color:var(--muted)}
+footer{padding:28px 0;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
