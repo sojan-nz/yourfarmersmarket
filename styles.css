@@ -89,3 +89,4 @@ footer{padding:28px 0;color:var(--muted);font-size:.9rem}.foot{display:flex;just
 .member{display:inline-block;background:var(--leaf);color:#fff;font:700 .72rem var(--sans);letter-spacing:.04em;padding:3px 10px;border-radius:99px;margin:0 0 8px!important}
 .toggle{display:flex;align-items:center;gap:8px;font-size:.95rem;color:var(--forest);font-weight:600;cursor:pointer}.toggle input{width:18px;height:18px;accent-color:var(--forest)}
 .site{margin:8px 0 0!important}.site a{color:var(--tomato);font-weight:700;text-decoration:none}.site a:hover{text-decoration:underline}
+.facts{margin:6px 0 8px;padding-left:18px;font-size:.88rem;color:var(--ink)}.facts li{margin:2px 0}.facts li::marker{color:var(--leaf)}

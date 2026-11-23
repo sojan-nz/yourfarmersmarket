@@ -45,10 +45,11 @@ window.MARKETS = {
         "https://northlandnz.com/listing/bay-of-islands-farmers-markets",
         "https://nzherald.co.nz/travel/farm-fresh-in-the-bay-of-islands/BYYTJKPINJOUI3OUDUYDKAIDQQ"
       ],
-      "notes": "",
+      "notes": "The market's website had a security certificate error when checked.",
       "id": "bay-of-islands-farmers-market",
       "member": true,
-      "website": "https://www.bayofislandsfarmersmarket.co.nz/"
+      "website": null,
+      "facts": []
     },
     {
       "name": "Bay of Islands Farmers' Market, Paihia",
@@ -66,7 +67,8 @@ window.MARKETS = {
       "notes": "Seasonal: open October – April.",
       "id": "paihia-farmers-market",
       "member": true,
-      "website": "https://www.bayofislandsfarmersmarket.co.nz/"
+      "website": null,
+      "facts": []
     },
     {
       "name": "Parnell Farmers' Market",
@@ -84,7 +86,8 @@ window.MARKETS = {
       "notes": "",
       "id": "parnell-farmers-market",
       "member": true,
-      "website": "https://www.facebook.com/parnellfarmersmarket/"
+      "website": "https://www.facebook.com/parnellfarmersmarket/",
+      "facts": []
     },
     {
       "name": "Matakana Country Market",
@@ -101,7 +104,8 @@ window.MARKETS = {
       "notes": "",
       "id": "matakana-country-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Grey Lynn Farmers' Market",
@@ -115,12 +119,16 @@ window.MARKETS = {
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.aucklandforkids.co.nz/auckland-markets/",
-        "https://www.theurbanlist.com/nz/a-list/markets-auckland"
+        "https://www.theurbanlist.com/nz/a-list/markets-auckland",
+        "https://www.greylynnfarmersmarket.co.nz"
       ],
       "notes": "",
       "id": "grey-lynn-farmers-market",
       "member": true,
-      "website": "https://www.greylynnfarmersmarket.co.nz"
+      "website": "https://www.greylynnfarmersmarket.co.nz",
+      "facts": [
+        "Every Sunday morning"
+      ]
     },
     {
       "name": "Catalina Bay Farmers' Market",
@@ -137,7 +145,8 @@ window.MARKETS = {
       "notes": "Hours from a 2025 vendor listing.",
       "id": "catalina-bay-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "The Clevedon Village Farmers' Market",
@@ -150,12 +159,16 @@ window.MARKETS = {
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://www.theurbanlist.com/nz/a-list/markets-auckland"
+        "https://www.theurbanlist.com/nz/a-list/markets-auckland",
+        "https://www.clevedonfarmersmarket.co.nz"
       ],
       "notes": "",
       "id": "clevedon-village-farmers-market",
       "member": true,
-      "website": "https://www.clevedonfarmersmarket.co.nz"
+      "website": "https://www.clevedonfarmersmarket.co.nz",
+      "facts": [
+        "Every Sunday except over Christmas and Easter Sunday"
+      ]
     },
     {
       "name": "Karangahape Farmers' Market",
@@ -172,7 +185,8 @@ window.MARKETS = {
       "notes": "2026 season listed 12 Sep – 14 Nov.",
       "id": "karangahape-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "The Village Farmers' Market at Bell House",
@@ -189,7 +203,8 @@ window.MARKETS = {
       "notes": "",
       "id": "the-village-farmers-market-at-bell-house",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Hamilton Farmers' Market",
@@ -202,12 +217,18 @@ window.MARKETS = {
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://www.nzherald.co.nz/the-country/news/hamilton-farmers-market-celebrates-20th-anniversary-this-sunday/IT433MSPGZHYVKM72LSVN4XVFU"
+        "https://www.nzherald.co.nz/the-country/news/hamilton-farmers-market-celebrates-20th-anniversary-this-sunday/IT433MSPGZHYVKM72LSVN4XVFU",
+        "https://www.waikatofarmersmarkets.co.nz/"
       ],
       "notes": "",
       "id": "hamilton-farmers-market",
       "member": true,
-      "website": "https://www.waikatofarmersmarkets.co.nz/"
+      "website": "https://www.waikatofarmersmarkets.co.nz/",
+      "facts": [
+        "Most stalls inside Claudelands Barn, some outside",
+        "Free entry and parking",
+        "Celebrated 20 years in March 2026"
+      ]
     },
     {
       "name": "Cambridge Farmers' Market",
@@ -221,12 +242,16 @@ window.MARKETS = {
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://cambridge.co.nz/things-to-do/cambridge-farmers-market",
-        "https://waikatonz.com/all-events/cambridge-farmers-market"
+        "https://waikatonz.com/all-events/cambridge-farmers-market",
+        "https://www.waikatofarmersmarkets.co.nz/"
       ],
       "notes": "",
       "id": "cambridge-farmers-market",
       "member": true,
-      "website": "https://www.waikatofarmersmarkets.co.nz/"
+      "website": "https://www.waikatofarmersmarkets.co.nz/",
+      "facts": [
+        "Runs year-round"
+      ]
     },
     {
       "name": "Tauranga Farmers' Market",
@@ -244,7 +269,8 @@ window.MARKETS = {
       "notes": "",
       "id": "tauranga-farmers-market",
       "member": true,
-      "website": "https://taurangafarmersmarket.co.nz/"
+      "website": "https://taurangafarmersmarket.co.nz/",
+      "facts": []
     },
     {
       "name": "Katikati Sunday Farmers' Market",
@@ -259,10 +285,11 @@ window.MARKETS = {
         "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.nzherald.co.nz/bay-of-plenty-times/katikati-advertiser/western-bay-of-plenty-farmers-markets-set-to-flourish-with-the-return-the-waihi-beach-event-and-introducing-the-new-katikati-sunday-farmers-market/3C3KAUXXUJBVPJI4K2CMU7H3DM"
       ],
-      "notes": "",
+      "notes": "The market's website appears to have expired. Check its Facebook page for updates.",
       "id": "katikati-sunday-farmers-market",
       "member": true,
-      "website": "https://www.katifarmersmarket.co.nz/"
+      "website": null,
+      "facts": []
     },
     {
       "name": "Waihī Beach Farmers' Market",
@@ -279,7 +306,8 @@ window.MARKETS = {
       "notes": "Hours not found.",
       "id": "waihi-beach-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Gisborne Farmers' Market",
@@ -297,7 +325,8 @@ window.MARKETS = {
       "notes": "",
       "id": "gisborne-farmers-market",
       "member": true,
-      "website": "https://www.gisbornefarmersmarket.co.nz/"
+      "website": "https://www.gisbornefarmersmarket.co.nz/",
+      "facts": []
     },
     {
       "name": "Hawke's Bay Farmers' Market",
@@ -310,12 +339,16 @@ window.MARKETS = {
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://www.napiernz.com/whats-on/show/804722/hawkes-bay-farmers-market&refID=3"
+        "https://www.napiernz.com/whats-on/show/804722/hawkes-bay-farmers-market&refID=3",
+        "https://hawkesbayfarmersmarket.co.nz/"
       ],
       "notes": "",
       "id": "hawkes-bay-farmers-market",
       "member": true,
-      "website": "https://hawkesbayfarmersmarket.co.nz/"
+      "website": "https://hawkesbayfarmersmarket.co.nz/",
+      "facts": [
+        "Runs special one-off events, such as 'Harvested on the Green' in Havelock North"
+      ]
     },
     {
       "name": "Napier Urban Farmers' Market",
@@ -324,16 +357,22 @@ window.MARKETS = {
       "day": "Saturday",
       "time": "8:30am – 12:30pm",
       "venue": "Clive Square",
-      "status": "listed",
+      "status": "check",
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://www.nzherald.co.nz/hawkes-bay-today/news/napier-urban-farmers-market-celebrates-20-years/IXJMZOKEJZGGTB44IGOJ54TG3I"
+        "https://www.nzherald.co.nz/hawkes-bay-today/news/napier-urban-farmers-market-celebrates-20-years/IXJMZOKEJZGGTB44IGOJ54TG3I",
+        "https://hawkesbayfarmersmarket.co.nz/visit-us-napier-urban-farmers-market/"
       ],
-      "notes": "",
+      "notes": "Used a temporary venue for most of 2026 and says it is returning to its original spot between Clive and Memorial Squares. Check the exact location.",
       "id": "napier-urban-farmers-market",
       "member": true,
-      "website": "https://hawkesbayfarmersmarket.co.nz/visit-us-napier-urban-farmers-market/"
+      "website": "https://hawkesbayfarmersmarket.co.nz/visit-us-napier-urban-farmers-market/",
+      "facts": [
+        "Dogs on leads welcome",
+        "Cash at the info stall; many stalls take EFTPOS",
+        "Street parking nearby"
+      ]
     },
     {
       "name": "Farmers Market Taranaki",
@@ -346,12 +385,18 @@ window.MARKETS = {
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://www.npdc.govt.nz/event/E23811D29427"
+        "https://www.npdc.govt.nz/event/E23811D29427",
+        "https://www.farmersmarkettaranaki.org.nz/"
       ],
       "notes": "",
       "id": "taranaki-farmers-market",
       "member": true,
-      "website": "https://www.farmersmarkettaranaki.org.nz/"
+      "website": "https://www.farmersmarkettaranaki.org.nz/",
+      "facts": [
+        "Open 52 weeks a year, rain or shine",
+        "Free CBD parking on Sundays",
+        "Live local music; mix of EFTPOS and cash stalls"
+      ]
     },
     {
       "name": "Whanganui River Markets",
@@ -369,7 +414,8 @@ window.MARKETS = {
       "notes": "",
       "id": "whanganui-river-market",
       "member": true,
-      "website": "https://www.facebook.com/WhanganuiRiverMarkets/"
+      "website": "https://www.facebook.com/WhanganuiRiverMarkets/",
+      "facts": []
     },
     {
       "name": "Hokowhitu Village Farmers' Market",
@@ -386,7 +432,8 @@ window.MARKETS = {
       "notes": "",
       "id": "hokowhitu-village-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Feilding Farmers' Market",
@@ -399,12 +446,18 @@ window.MARKETS = {
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://manawatunz.co.nz/events/feilding-farmers-market/"
+        "https://manawatunz.co.nz/events/feilding-farmers-market/",
+        "https://www.feildingfarmersmarket.co.nz/"
       ],
       "notes": "",
       "id": "feilding-farmers-market",
       "member": true,
-      "website": "https://www.feildingfarmersmarket.co.nz/"
+      "website": "https://www.feildingfarmersmarket.co.nz/",
+      "facts": [
+        "Runs rain, hail or shine",
+        "Up to 30 seasonal stallholders",
+        "Running for 15+ years; NZ Farmers Market of the Year 2012–2014"
+      ]
     },
     {
       "name": "Harbourside Market",
@@ -421,7 +474,8 @@ window.MARKETS = {
       "notes": "",
       "id": "harbourside-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Hill Street Farmers' Market",
@@ -438,7 +492,8 @@ window.MARKETS = {
       "notes": "",
       "id": "hill-street-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Riverbank Market",
@@ -455,7 +510,8 @@ window.MARKETS = {
       "notes": "Published hours conflict.",
       "id": "riverbank-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Nelson Farmers' Market",
@@ -468,12 +524,17 @@ window.MARKETS = {
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://www.nelsontasman.nz/visit-nelson-tasman/things-to-see-and-do/3031-nelson-farmers-market"
+        "https://www.nelsontasman.nz/visit-nelson-tasman/things-to-see-and-do/3031-nelson-farmers-market",
+        "https://www.nelsonfarmersmarket.org.nz/"
       ],
-      "notes": "",
+      "notes": "The market's own site shows both 8am and 8:30am start times.",
       "id": "nelson-farmers-market",
       "member": true,
-      "website": "https://www.nelsonfarmersmarket.org.nz/"
+      "website": "https://www.nelsonfarmersmarket.org.nz/",
+      "facts": [
+        "Rain or shine",
+        "Next to the Elma Turner Library"
+      ]
     },
     {
       "name": "Marlborough Farmers' Market",
@@ -486,12 +547,18 @@ window.MARKETS = {
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://MarlboroughNZ.com/explore-marlborough/food-drink/local-markets/"
+        "https://MarlboroughNZ.com/explore-marlborough/food-drink/local-markets/",
+        "https://www.marlboroughfarmersmarket.org.nz/"
       ],
       "notes": "",
       "id": "marlborough-farmers-market",
       "member": true,
-      "website": "https://www.marlboroughfarmersmarket.org.nz/"
+      "website": "https://www.marlboroughfarmersmarket.org.nz/",
+      "facts": [
+        "Rain or shine",
+        "EFTPOS at the info stall",
+        "Free stall for community groups and charities"
+      ]
     },
     {
       "name": "Christchurch Farmers' Market",
@@ -508,7 +575,8 @@ window.MARKETS = {
       "notes": "",
       "id": "christchurch-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Lyttelton Farmers' Market",
@@ -523,10 +591,11 @@ window.MARKETS = {
         "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://cityscape-christchurch.co.nz/blog/food-drink/entry/the-freshest-farmers-markets-in-otautahi"
       ],
-      "notes": "",
+      "notes": "The website link on the FMNZ directory returns a page-not-found error.",
       "id": "lyttelton-farmers-market",
       "member": true,
-      "website": "https://www.projectlyttelton.org/lyttelton-farmers-market"
+      "website": null,
+      "facts": []
     },
     {
       "name": "South Christchurch Farmers' Market",
@@ -543,7 +612,8 @@ window.MARKETS = {
       "notes": "Formerly Ōpāwa Farmers' Market.",
       "id": "south-christchurch-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Timaru Artisan Farmers' Market",
@@ -560,7 +630,8 @@ window.MARKETS = {
       "notes": "",
       "id": "timaru-artisan-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Akaroa Farmers' Market",
@@ -577,7 +648,8 @@ window.MARKETS = {
       "notes": "",
       "id": "akaroa-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Ashburton District Farmers' Market",
@@ -595,7 +667,8 @@ window.MARKETS = {
       "notes": "",
       "id": "ashburton-farmers-market",
       "member": true,
-      "website": "https://www.facebook.com/ashburtondistrictfarmersmarket/"
+      "website": "https://www.facebook.com/ashburtondistrictfarmersmarket/",
+      "facts": []
     },
     {
       "name": "Otago Farmers' Market",
@@ -614,7 +687,11 @@ window.MARKETS = {
       "notes": "",
       "id": "otago-farmers-market",
       "member": true,
-      "website": "https://otagofarmersmarket.org.nz/"
+      "website": "https://otagofarmersmarket.org.nz/",
+      "facts": [
+        "Food-only market, running since March 2003",
+        "Market chef cooking demos with samples"
+      ]
     },
     {
       "name": "Oamaru Farmers' Market",
@@ -631,7 +708,8 @@ window.MARKETS = {
       "notes": "",
       "id": "oamaru-farmers-market",
       "member": false,
-      "website": null
+      "website": null,
+      "facts": []
     },
     {
       "name": "Southern Farmers' Market",
@@ -644,12 +722,16 @@ window.MARKETS = {
       "lastChecked": "2026-11-23",
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/",
-        "https://lwb.co.nz/content/free-markets/"
+        "https://lwb.co.nz/content/free-markets/",
+        "https://www.southernfarmersmarket.co.nz"
       ],
       "notes": "",
       "id": "southern-farmers-market",
       "member": true,
-      "website": "https://www.southernfarmersmarket.co.nz"
+      "website": "https://www.southernfarmersmarket.co.nz",
+      "facts": [
+        "Rain or shine, every Sunday"
+      ]
     },
     {
       "id": "whangarei-growers-market",
@@ -666,7 +748,8 @@ window.MARKETS = {
         "https://www.farmersmarkets.org.nz/find-a-market/"
       ],
       "notes": "",
-      "website": "https://www.facebook.com/thewhangareigrowersmarket/"
+      "website": "https://www.facebook.com/thewhangareigrowersmarket/",
+      "facts": []
     },
     {
       "id": "matakana-village-farmers-market",
@@ -680,10 +763,14 @@ window.MARKETS = {
       "member": true,
       "lastChecked": "2026-11-23",
       "sources": [
-        "https://www.farmersmarkets.org.nz/find-a-market/"
+        "https://www.farmersmarkets.org.nz/find-a-market/",
+        "https://www.matakanavillage.co.nz/farmers-market"
       ],
       "notes": "",
-      "website": "https://www.matakanavillage.co.nz/farmers-market"
+      "website": "https://www.matakanavillage.co.nz/farmers-market",
+      "facts": [
+        "Every Saturday"
+      ]
     },
     {
       "id": "amberley-farmers-market",
@@ -697,10 +784,16 @@ window.MARKETS = {
       "member": true,
       "lastChecked": "2026-11-23",
       "sources": [
-        "https://www.farmersmarkets.org.nz/find-a-market/"
+        "https://www.farmersmarkets.org.nz/find-a-market/",
+        "https://amberleyfarmersmarket.org.nz/"
       ],
       "notes": "",
-      "website": "https://www.amberleyfarmersmarket.org.nz/"
+      "website": "https://amberleyfarmersmarket.org.nz/",
+      "facts": [
+        "Around 33 stallholders",
+        "Free parking, toilets nearby, dogs on leads welcome",
+        "Celebrating 20 years"
+      ]
     },
     {
       "id": "mount-pleasant-farmers-market",
@@ -717,7 +810,8 @@ window.MARKETS = {
         "https://www.farmersmarkets.org.nz/find-a-market/"
       ],
       "notes": "",
-      "website": "https://www.facebook.com/MtPleasantFarmersMarket/"
+      "website": "https://www.facebook.com/MtPleasantFarmersMarket/",
+      "facts": []
     }
   ],
   "primarySource": "https://www.farmersmarkets.org.nz/find-a-market/"
