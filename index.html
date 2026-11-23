@@ -13,7 +13,7 @@
 <body>
 <header class="top"><div class="wrap bar">
   <a class="logo" href="#top"><svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><circle cx="16" cy="19" r="10" fill="#c4512d"/><path d="M16 9c-1-4 2-7 6-7-1 4-3 6-6 7z" fill="#5d7a3a"/></svg>Your Farmers Market</a>
-  <nav><a href="#how">How it works</a><a href="#stalls-section">Stalls</a><a class="pill" href="#feature">For stallholders</a></nav>
+  <nav><a href="#markets">Markets</a><a href="#stalls-section">Stalls</a><a class="pill" href="#feature">For stallholders</a></nav>
 </div></header>
 
 <main id="top">
@@ -22,7 +22,7 @@
     <p class="eyebrow">Local · Seasonal · Direct</p>
     <h1>Buy from the people <em>who grew it.</em></h1>
     <p class="lede">No supermarket. No middleman. Find your nearest farmers market, meet the growers and makers behind every stall, and know exactly what's worth the early start.</p>
-    <div class="cta"><a class="btn" href="#stalls-section">Meet the stalls</a><a class="btn ghost" href="#how">How it works</a></div>
+    <div class="cta"><a class="btn" href="#markets">Find a market</a><a class="btn ghost" href="#how">How it works</a></div>
   </div>
   <div class="art" aria-hidden="true">
     <div class="stamp"><svg viewBox="0 0 160 160"><defs><path id="c" d="M80,80 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/></defs><text><textPath href="#c" startOffset="0" textLength="352" lengthAdjust="spacing">NO MIDDLEMAN ✦ GROWER TO YOU ✦</textPath></text></svg><b>Fresh<br>from<br>source</b></div>
@@ -41,8 +41,18 @@
   </ol>
 </section>
 
+<section id="markets" class="wrap section">
+  <div class="head"><div><p class="eyebrow">Markets across Aotearoa</p><h2>Find a farmers' market</h2></div>
+    <p class="updated" id="mk-updated"></p></div>
+  <div class="tools"><label class="sr" for="mk-search">Search markets</label>
+    <input id="mk-search" type="search" placeholder="Search a town, market or day…" autocomplete="off"><div id="mk-regions" class="chips"></div></div>
+  <div id="mk-list" class="mk-grid"></div>
+  <p id="mk-empty" class="empty" hidden>No markets match that yet.</p>
+  <p class="fineprint">Days and times change with the seasons. Markets marked <span class="flag">Check before you go</span> have old or conflicting listings. Always confirm with the market. Know a market we've missed? <a href="#feature">Tell us</a>.</p>
+</section>
+
 <section id="stalls-section" class="band"><div class="wrap section">
-  <div class="head"><div><p class="eyebrow">The directory</p><h2>Who's at the market</h2></div>
+  <div class="head"><div><p class="eyebrow">Example stall profiles</p><h2>Meet the growers</h2></div>
     <aside id="thisweek" class="week reveal"></aside></div>
   <div class="tools"><label class="sr" for="search">Search stalls</label>
     <input id="search" type="search" placeholder="Search honey, bread, eggs…" autocomplete="off"><div id="chips" class="chips"></div></div>
@@ -66,6 +76,6 @@
 </main>
 
 <footer><div class="wrap foot"><span>© Your Farmers Market</span><span>Listings marked Featured are sponsored.</span></div></footer>
-<script src="data.js"></script><script src="app.js"></script>
+<script src="markets.js"></script><script src="markets-ui.js"></script><script src="data.js"></script><script src="app.js"></script>
 </body>
 </html>
