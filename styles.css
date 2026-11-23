@@ -122,3 +122,5 @@ footer{padding:28px 0;color:var(--muted);font-size:.9rem}.foot{display:flex;just
 .mk2 details[open] summary{margin-bottom:6px}.mk2 .venue,.mk2 .note{font-size:.88rem;margin:4px 0}
 @media(max-width:760px){.mk-list{grid-template-columns:1fr}.nearbtn span{display:none}.nearbtn{padding:0 14px}}
 @media(max-width:760px){.seg button{padding:8px 10px;font-size:.85rem}.bar{flex-wrap:nowrap}.logo{font-size:1rem}.pill{padding:6px 12px;font-size:.85rem}}
+.seg.radius{margin-top:10px}
+[hidden]{display:none!important}
