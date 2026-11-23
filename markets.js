@@ -47,7 +47,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "bay-of-islands-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.bayofislandsfarmersmarket.co.nz/"
     },
     {
       "name": "Bay of Islands Farmers' Market, Paihia",
@@ -64,7 +65,8 @@ window.MARKETS = {
       ],
       "notes": "Seasonal: open October – April.",
       "id": "paihia-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.bayofislandsfarmersmarket.co.nz/"
     },
     {
       "name": "Parnell Farmers' Market",
@@ -81,7 +83,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "parnell-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.facebook.com/parnellfarmersmarket/"
     },
     {
       "name": "Matakana Country Market",
@@ -97,7 +100,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "matakana-country-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Grey Lynn Farmers' Market",
@@ -115,7 +119,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "grey-lynn-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.greylynnfarmersmarket.co.nz"
     },
     {
       "name": "Catalina Bay Farmers' Market",
@@ -131,7 +136,8 @@ window.MARKETS = {
       ],
       "notes": "Hours from a 2025 vendor listing.",
       "id": "catalina-bay-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "The Clevedon Village Farmers' Market",
@@ -148,7 +154,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "clevedon-village-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.clevedonfarmersmarket.co.nz"
     },
     {
       "name": "Karangahape Farmers' Market",
@@ -164,7 +171,8 @@ window.MARKETS = {
       ],
       "notes": "2026 season listed 12 Sep – 14 Nov.",
       "id": "karangahape-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "The Village Farmers' Market at Bell House",
@@ -180,7 +188,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "the-village-farmers-market-at-bell-house",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Hamilton Farmers' Market",
@@ -197,7 +206,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "hamilton-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.waikatofarmersmarkets.co.nz/"
     },
     {
       "name": "Cambridge Farmers' Market",
@@ -215,7 +225,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "cambridge-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.waikatofarmersmarkets.co.nz/"
     },
     {
       "name": "Tauranga Farmers' Market",
@@ -232,7 +243,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "tauranga-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://taurangafarmersmarket.co.nz/"
     },
     {
       "name": "Katikati Sunday Farmers' Market",
@@ -249,7 +261,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "katikati-sunday-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.katifarmersmarket.co.nz/"
     },
     {
       "name": "Waihī Beach Farmers' Market",
@@ -265,7 +278,8 @@ window.MARKETS = {
       ],
       "notes": "Hours not found.",
       "id": "waihi-beach-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Gisborne Farmers' Market",
@@ -282,7 +296,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "gisborne-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.gisbornefarmersmarket.co.nz/"
     },
     {
       "name": "Hawke's Bay Farmers' Market",
@@ -299,7 +314,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "hawkes-bay-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://hawkesbayfarmersmarket.co.nz/"
     },
     {
       "name": "Napier Urban Farmers' Market",
@@ -316,7 +332,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "napier-urban-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://hawkesbayfarmersmarket.co.nz/visit-us-napier-urban-farmers-market/"
     },
     {
       "name": "Farmers Market Taranaki",
@@ -333,7 +350,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "taranaki-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.farmersmarkettaranaki.org.nz/"
     },
     {
       "name": "Whanganui River Markets",
@@ -350,7 +368,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "whanganui-river-market",
-      "member": true
+      "member": true,
+      "website": "https://www.facebook.com/WhanganuiRiverMarkets/"
     },
     {
       "name": "Hokowhitu Village Farmers' Market",
@@ -366,7 +385,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "hokowhitu-village-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Feilding Farmers' Market",
@@ -383,7 +403,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "feilding-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.feildingfarmersmarket.co.nz/"
     },
     {
       "name": "Harbourside Market",
@@ -399,7 +420,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "harbourside-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Hill Street Farmers' Market",
@@ -415,7 +437,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "hill-street-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Riverbank Market",
@@ -431,7 +454,8 @@ window.MARKETS = {
       ],
       "notes": "Published hours conflict.",
       "id": "riverbank-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Nelson Farmers' Market",
@@ -448,7 +472,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "nelson-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.nelsonfarmersmarket.org.nz/"
     },
     {
       "name": "Marlborough Farmers' Market",
@@ -465,7 +490,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "marlborough-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.marlboroughfarmersmarket.org.nz/"
     },
     {
       "name": "Christchurch Farmers' Market",
@@ -481,7 +507,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "christchurch-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Lyttelton Farmers' Market",
@@ -498,7 +525,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "lyttelton-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.projectlyttelton.org/lyttelton-farmers-market"
     },
     {
       "name": "South Christchurch Farmers' Market",
@@ -514,7 +542,8 @@ window.MARKETS = {
       ],
       "notes": "Formerly Ōpāwa Farmers' Market.",
       "id": "south-christchurch-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Timaru Artisan Farmers' Market",
@@ -530,7 +559,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "timaru-artisan-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Akaroa Farmers' Market",
@@ -546,7 +576,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "akaroa-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Ashburton District Farmers' Market",
@@ -563,7 +594,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "ashburton-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.facebook.com/ashburtondistrictfarmersmarket/"
     },
     {
       "name": "Otago Farmers' Market",
@@ -581,7 +613,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "otago-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://otagofarmersmarket.org.nz/"
     },
     {
       "name": "Oamaru Farmers' Market",
@@ -597,7 +630,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "oamaru-farmers-market",
-      "member": false
+      "member": false,
+      "website": null
     },
     {
       "name": "Southern Farmers' Market",
@@ -614,7 +648,8 @@ window.MARKETS = {
       ],
       "notes": "",
       "id": "southern-farmers-market",
-      "member": true
+      "member": true,
+      "website": "https://www.southernfarmersmarket.co.nz"
     },
     {
       "id": "whangarei-growers-market",
@@ -630,7 +665,8 @@ window.MARKETS = {
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/"
       ],
-      "notes": ""
+      "notes": "",
+      "website": "https://www.facebook.com/thewhangareigrowersmarket/"
     },
     {
       "id": "matakana-village-farmers-market",
@@ -646,7 +682,8 @@ window.MARKETS = {
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/"
       ],
-      "notes": ""
+      "notes": "",
+      "website": "https://www.matakanavillage.co.nz/farmers-market"
     },
     {
       "id": "amberley-farmers-market",
@@ -662,7 +699,8 @@ window.MARKETS = {
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/"
       ],
-      "notes": ""
+      "notes": "",
+      "website": "https://www.amberleyfarmersmarket.org.nz/"
     },
     {
       "id": "mount-pleasant-farmers-market",
@@ -678,7 +716,8 @@ window.MARKETS = {
       "sources": [
         "https://www.farmersmarkets.org.nz/find-a-market/"
       ],
-      "notes": ""
+      "notes": "",
+      "website": "https://www.facebook.com/MtPleasantFarmersMarket/"
     }
   ],
   "primarySource": "https://www.farmersmarkets.org.nz/find-a-market/"

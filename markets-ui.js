@@ -13,7 +13,7 @@
       '<p class="where">'+esc(m.town)+' · '+esc(m.region)+'</p><h3>'+esc(m.name)+'</h3>'+(m.member?'<p class="member" title="Authenticated member of Farmers Markets New Zealand">✓ FMNZ member</p>':'')+
       '<p class="when"><strong>'+esc(m.day)+'</strong><br>'+esc(m.time)+'</p><p class="venue">'+esc(m.venue)+'</p>'+
       (m.status==='check'?'<p class="flag">Check before you go</p>'+(m.notes?'<p class="note">'+esc(m.notes)+'</p>':''):(m.notes?'<p class="note">'+esc(m.notes)+'</p>':''))+
-      '<p class="src">Source: '+m.sources.map(function(u){return '<a href="'+esc(u)+'" target="_blank" rel="noopener nofollow">'+esc(host(u))+'</a>'}).join(', ')+'</p></article>';
+      (m.website?'<p class="site"><a href="'+esc(m.website)+'" target="_blank" rel="noopener">'+(m.website.indexOf('facebook.com')>-1?'Facebook page':'Market website')+' →</a></p>':'')+'<p class="src">Source: '+m.sources.map(function(u){return '<a href="'+esc(u)+'" target="_blank" rel="noopener nofollow">'+esc(host(u))+'</a>'}).join(', ')+'</p></article>';
   }
   function render(){
     var s=q.value.trim().toLowerCase(), order=M.regionsOrder;
