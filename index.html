@@ -44,29 +44,43 @@
 <section id="markets" class="wrap section">
   <p class="eyebrow">Markets across Aotearoa</p>
   <h2>Find a farmers' market</h2>
-  <div class="finder">
-    <div class="searchrow">
-      <label class="sr" for="mk-search">Town or market</label>
-      <div class="field"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-        <input id="mk-search" type="search" list="mk-towns" placeholder="Town or market name" autocomplete="off"><datalist id="mk-towns"></datalist></div>
-      <button id="mk-near" class="nearbtn" type="button"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg><span>Near me</span></button>
-    </div>
-    <div class="filterrow">
-      <div class="seg" id="mk-days" role="group" aria-label="Day">
-        <button data-d="any" class="on">Any day</button><button data-d="today">Today</button><button data-d="6">Sat</button><button data-d="0">Sun</button><button data-d="wk">Weekdays</button>
-      </div>
-      <label class="sr" for="mk-region">Region</label>
-      <select id="mk-region"><option value="">All regions</option></select>
-    </div>
-    <div class="seg radius" id="mk-radius" role="group" aria-label="Distance" hidden>
-      <button data-r="0" class="on">Any</button><button data-r="5">5 km</button><button data-r="10">10 km</button><button data-r="25">25 km</button><button data-r="50">50 km</button><button data-r="100">100 km</button>
-    </div>
-    <div class="resultbar"><p id="mk-count" aria-live="polite"></p><button id="mk-clear" type="button" hidden>Clear</button></div>
-    <p id="mk-geo" class="geo" hidden></p>
+
+  <button class="spill" id="sp-open" type="button" aria-haspopup="dialog">
+    <span class="sp-seg" data-go="where"><small>Where</small><b id="sp-where">Anywhere in NZ</b></span>
+    <span class="sp-seg" data-go="when"><small>When</small><b id="sp-when">Any day</b></span>
+    <span class="sp-seg sp-far" data-go="far"><small>How far</small><b id="sp-far">Any distance</b></span>
+    <span class="sp-go"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+  </button>
+
+  <div class="quick" id="quick">
+    <button type="button" data-q="near"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg>Near me</button>
+    <button type="button" data-q="today">On today</button>
+    <button type="button" data-q="6">Saturday</button>
+    <button type="button" data-q="0">Sunday</button>
   </div>
+
+  <div class="resbar"><p id="mk-count" aria-live="polite"></p><div id="mk-active" class="active"></div></div>
+  <p id="mk-geo" class="geo" hidden></p>
   <div id="mk-list" class="mk-list"></div>
-  <p id="mk-empty" class="empty" hidden>No markets match. Try another day or clear your filters.</p>
+  <p id="mk-empty" class="empty" hidden></p>
   <p class="fineprint">Days and times change with the seasons. Markets marked <span class="flag">Check before you go</span> have patchy or conflicting info, so confirm with the market first. Know a market we've missed? <a href="mailto:hello@yourfarmersmarket.co.nz?subject=Market%20suggestion">Tell us</a>.</p>
+
+  <div class="sheet" id="sheet" hidden>
+    <div class="sheet-bg" data-close></div>
+    <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+      <div class="sheet-head"><h3 id="sheet-title">Find a market</h3><button type="button" class="x" data-close aria-label="Close">&times;</button></div>
+      <div class="sheet-body">
+        <section id="s-where"><h4>Where</h4>
+          <div class="field"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg><label class="sr" for="mk-search">Town or market</label><input id="mk-search" type="search" list="mk-towns" placeholder="Search a town or market" autocomplete="off"><datalist id="mk-towns"></datalist></div>
+          <button type="button" id="mk-near" class="locbtn"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg><span>Use my current location</span></button>
+          <div class="chiprow" id="mk-regions"></div>
+        </section>
+        <section id="s-when"><h4>When</h4><div class="tiles" id="mk-days"></div></section>
+        <section id="s-far"><h4>How far</h4><p class="hint" id="far-hint">Pick a town or use your location first.</p><div class="chiprow" id="mk-radius"></div></section>
+      </div>
+      <div class="sheet-foot"><button type="button" class="linkbtn" id="mk-clear">Clear all</button><button type="button" class="btn" id="mk-show" data-close>Show markets</button></div>
+    </div>
+  </div>
 </section>
 
 <section id="stalls-section" class="band"><div class="wrap section">
