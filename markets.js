@@ -1,5 +1,6 @@
 // Farmers market directory. Facts only, each with sources and a last-checked date.
 // status: "listed" = consistent recent source; "check" = old, partial or conflicting info.
+// member: true = Farmers Markets NZ member (primary source: farmersmarkets.org.nz).
 // Updated weekly via a reviewed pull request; never edited straight on main.
 window.MARKETS = {
   "updated": "2026-11-23",
@@ -25,42 +26,45 @@ window.MARKETS = {
     "Wairarapa (Wellington region)",
     "Rotorua",
     "Whakatāne",
-    "Whangārei",
     "Queenstown",
     "Wānaka",
     "Motueka"
   ],
   "markets": [
     {
-      "name": "Bay of Islands Farmers' Market",
+      "name": "Kerikeri Farmers' Market",
       "region": "Northland",
       "town": "Kerikeri",
       "day": "Sunday",
       "time": "8:30am – 12pm",
-      "venue": "Hobson Ave (Post Office carpark)",
-      "status": "check",
+      "venue": "Post Office Carpark, 10 Hobson Ave",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://northlandnz.com/listing/bay-of-islands-farmers-markets",
         "https://nzherald.co.nz/travel/farm-fresh-in-the-bay-of-islands/BYYTJKPINJOUI3OUDUYDKAIDQQ"
       ],
-      "notes": "Sources differ on start time (8:30am or 9am).",
-      "id": "bay-of-islands-farmers-market"
+      "notes": "",
+      "id": "bay-of-islands-farmers-market",
+      "member": true
     },
     {
-      "name": "Paihia Farmers' Market",
+      "name": "Bay of Islands Farmers' Market, Paihia",
       "region": "Northland",
       "town": "Paihia",
-      "day": "Thursday (Oct–Apr)",
-      "time": "Times vary by source",
-      "venue": "Village Green",
-      "status": "check",
+      "day": "Thursday",
+      "time": "10am – 1:30pm",
+      "venue": "The Village Green, 60 Marsden Rd",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://bay-of-islands.co.nz/events/weekly-markets/"
       ],
-      "notes": "Seasonal. Published times conflict.",
-      "id": "paihia-farmers-market"
+      "notes": "Seasonal: open October – April.",
+      "id": "paihia-farmers-market",
+      "member": true
     },
     {
       "name": "Parnell Farmers' Market",
@@ -68,14 +72,16 @@ window.MARKETS = {
       "town": "Parnell",
       "day": "Saturday",
       "time": "8am – 12pm",
-      "venue": "Parnell",
+      "venue": "Jubilee Building Carpark, 545 Parnell Rd",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.aucklandnz.com/inspire/auckland-farmers-markets-weekend-itineraries"
       ],
       "notes": "",
-      "id": "parnell-farmers-market"
+      "id": "parnell-farmers-market",
+      "member": true
     },
     {
       "name": "Matakana Country Market",
@@ -90,23 +96,26 @@ window.MARKETS = {
         "https://www.theurbanlist.com/nz/a-list/markets-auckland"
       ],
       "notes": "",
-      "id": "matakana-country-market"
+      "id": "matakana-country-market",
+      "member": false
     },
     {
       "name": "Grey Lynn Farmers' Market",
       "region": "Auckland",
       "town": "Grey Lynn",
-      "day": "Weekend (day unconfirmed)",
-      "time": "Morning",
-      "venue": "Grey Lynn Community Centre, Richmond Rd",
-      "status": "check",
+      "day": "Sunday",
+      "time": "8:30am – 12pm",
+      "venue": "Grey Lynn Community Centre, 510 Richmond Rd",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.aucklandforkids.co.nz/auckland-markets/",
         "https://www.theurbanlist.com/nz/a-list/markets-auckland"
       ],
-      "notes": "Sources disagree on Saturday vs Sunday.",
-      "id": "grey-lynn-farmers-market"
+      "notes": "",
+      "id": "grey-lynn-farmers-market",
+      "member": true
     },
     {
       "name": "Catalina Bay Farmers' Market",
@@ -121,22 +130,25 @@ window.MARKETS = {
         "https://www.dalan.co.nz/page/361125"
       ],
       "notes": "Hours from a 2025 vendor listing.",
-      "id": "catalina-bay-farmers-market"
+      "id": "catalina-bay-farmers-market",
+      "member": false
     },
     {
-      "name": "Clevedon Village Farmers' Market",
+      "name": "The Clevedon Village Farmers' Market",
       "region": "Auckland",
       "town": "Clevedon",
       "day": "Sunday",
-      "time": "Morning (arrive by 9am)",
-      "venue": "Clevedon",
-      "status": "check",
+      "time": "8am – 1pm",
+      "venue": "Clevedon Showgrounds, 107 Monument Rd (Gate 6, Munro Entrance)",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.theurbanlist.com/nz/a-list/markets-auckland"
       ],
-      "notes": "Published hours conflict.",
-      "id": "clevedon-village-farmers-market"
+      "notes": "",
+      "id": "clevedon-village-farmers-market",
+      "member": true
     },
     {
       "name": "Karangahape Farmers' Market",
@@ -151,7 +163,8 @@ window.MARKETS = {
         "https://www.aucklandnz.com/events/all-events/karangahape-farmers-market"
       ],
       "notes": "2026 season listed 12 Sep – 14 Nov.",
-      "id": "karangahape-farmers-market"
+      "id": "karangahape-farmers-market",
+      "member": false
     },
     {
       "name": "The Village Farmers' Market at Bell House",
@@ -166,7 +179,8 @@ window.MARKETS = {
         "https://www.aucklandnz.com/events/all-events/the-village-farmers-market-at-bell-house"
       ],
       "notes": "",
-      "id": "the-village-farmers-market-at-bell-house"
+      "id": "the-village-farmers-market-at-bell-house",
+      "member": false
     },
     {
       "name": "Hamilton Farmers' Market",
@@ -174,14 +188,16 @@ window.MARKETS = {
       "town": "Hamilton",
       "day": "Sunday",
       "time": "8am – 12pm",
-      "venue": "The Barn, Claudelands Events Centre",
+      "venue": "The Barn, Claudelands Event Centre, Gate 3, Brooklyn Rd",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.nzherald.co.nz/the-country/news/hamilton-farmers-market-celebrates-20th-anniversary-this-sunday/IT433MSPGZHYVKM72LSVN4XVFU"
       ],
       "notes": "",
-      "id": "hamilton-farmers-market"
+      "id": "hamilton-farmers-market",
+      "member": true
     },
     {
       "name": "Cambridge Farmers' Market",
@@ -189,15 +205,17 @@ window.MARKETS = {
       "town": "Cambridge",
       "day": "Saturday",
       "time": "8am – 12pm",
-      "venue": "Victoria Square",
+      "venue": "Victoria Square, cnr Victoria & Alpha Sts",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://cambridge.co.nz/things-to-do/cambridge-farmers-market",
         "https://waikatonz.com/all-events/cambridge-farmers-market"
       ],
       "notes": "",
-      "id": "cambridge-farmers-market"
+      "id": "cambridge-farmers-market",
+      "member": true
     },
     {
       "name": "Tauranga Farmers' Market",
@@ -205,29 +223,33 @@ window.MARKETS = {
       "town": "Tauranga",
       "day": "Saturday",
       "time": "7:45am – 12pm",
-      "venue": "Tauranga Primary School",
+      "venue": "Tauranga Primary School, 31 Fifth Ave",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.bayofplentynz.com/events/markets-in-the-bay/"
       ],
       "notes": "",
-      "id": "tauranga-farmers-market"
+      "id": "tauranga-farmers-market",
+      "member": true
     },
     {
       "name": "Katikati Sunday Farmers' Market",
       "region": "Bay of Plenty",
       "town": "Katikati",
       "day": "Sunday",
-      "time": "10am – 2pm",
-      "venue": "Haiku Park (wet weather: Memorial Hall)",
+      "time": "9am – 1pm",
+      "venue": "Katikati War Memorial Hall, 29 Main Rd",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.nzherald.co.nz/bay-of-plenty-times/katikati-advertiser/western-bay-of-plenty-farmers-markets-set-to-flourish-with-the-return-the-waihi-beach-event-and-introducing-the-new-katikati-sunday-farmers-market/3C3KAUXXUJBVPJI4K2CMU7H3DM"
       ],
       "notes": "",
-      "id": "katikati-sunday-farmers-market"
+      "id": "katikati-sunday-farmers-market",
+      "member": true
     },
     {
       "name": "Waihī Beach Farmers' Market",
@@ -242,7 +264,8 @@ window.MARKETS = {
         "https://nzherald.co.nz/bay-of-plenty-times/news/waihi-beach-in-the-market-for-fresh-produce/JRFSG6YBKBBNVHRFXFLEJMPQPU"
       ],
       "notes": "Hours not found.",
-      "id": "waihi-beach-farmers-market"
+      "id": "waihi-beach-farmers-market",
+      "member": false
     },
     {
       "name": "Gisborne Farmers' Market",
@@ -250,14 +273,16 @@ window.MARKETS = {
       "town": "Gisborne",
       "day": "Saturday",
       "time": "9:30am – 12:30pm",
-      "venue": "Cnr Stout & Fitzherbert Sts",
+      "venue": "Old Army Hall Carpark, cnr Stout & Fitzherbert Sts",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://tairawhitigisborne.co.nz/wine-dine/guide-to-gisborne-farmers-market"
       ],
       "notes": "",
-      "id": "gisborne-farmers-market"
+      "id": "gisborne-farmers-market",
+      "member": true
     },
     {
       "name": "Hawke's Bay Farmers' Market",
@@ -265,14 +290,16 @@ window.MARKETS = {
       "town": "Hastings",
       "day": "Sunday",
       "time": "8:30am – 12:30pm",
-      "venue": "A&P Showgrounds, Kenilworth Rd",
+      "venue": "Waikoko Gardens, Tōmoana Showgrounds, Kenilworth Rd",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.napiernz.com/whats-on/show/804722/hawkes-bay-farmers-market&refID=3"
       ],
       "notes": "",
-      "id": "hawkes-bay-farmers-market"
+      "id": "hawkes-bay-farmers-market",
+      "member": true
     },
     {
       "name": "Napier Urban Farmers' Market",
@@ -281,43 +308,49 @@ window.MARKETS = {
       "day": "Saturday",
       "time": "8:30am – 12:30pm",
       "venue": "Clive Square",
-      "status": "check",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.nzherald.co.nz/hawkes-bay-today/news/napier-urban-farmers-market-celebrates-20-years/IXJMZOKEJZGGTB44IGOJ54TG3I"
       ],
-      "notes": "One listing says 9am – 1pm.",
-      "id": "napier-urban-farmers-market"
+      "notes": "",
+      "id": "napier-urban-farmers-market",
+      "member": true
     },
     {
-      "name": "Taranaki Farmers' Market",
+      "name": "Farmers Market Taranaki",
       "region": "Taranaki",
       "town": "New Plymouth",
       "day": "Sunday",
       "time": "9am – 12pm",
-      "venue": "Huatoki Plaza (winter) / Currie St (summer)",
+      "venue": "Huatoki Plaza, 26 Devon St West",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.npdc.govt.nz/event/E23811D29427"
       ],
-      "notes": "Venue changes seasonally.",
-      "id": "taranaki-farmers-market"
+      "notes": "",
+      "id": "taranaki-farmers-market",
+      "member": true
     },
     {
-      "name": "Whanganui River Market",
+      "name": "Whanganui River Markets",
       "region": "Manawatū-Whanganui",
       "town": "Whanganui",
       "day": "Saturday",
       "time": "8:30am – 1pm",
-      "venue": "Riverbank, Taupō Quay",
-      "status": "check",
+      "venue": "7 Taupō Quay",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.broadsheet.com.au/new-zealand/food-and-drink/article/guide-new-zealands-best-farmers-markets"
       ],
-      "notes": "Times from a travel guide.",
-      "id": "whanganui-river-market"
+      "notes": "",
+      "id": "whanganui-river-market",
+      "member": true
     },
     {
       "name": "Hokowhitu Village Farmers' Market",
@@ -332,22 +365,25 @@ window.MARKETS = {
         "https://www.pncc.govt.nz/Community/Community-projects-and-programmes/Placemaking/Markets"
       ],
       "notes": "",
-      "id": "hokowhitu-village-farmers-market"
+      "id": "hokowhitu-village-farmers-market",
+      "member": false
     },
     {
       "name": "Feilding Farmers' Market",
       "region": "Manawatū-Whanganui",
       "town": "Feilding",
       "day": "Friday",
-      "time": "9am – 1:30pm",
-      "venue": "Feilding town centre",
-      "status": "check",
+      "time": "8:30am – 1pm",
+      "venue": "Manchester Square",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://manawatunz.co.nz/events/feilding-farmers-market/"
       ],
       "notes": "",
-      "id": "feilding-farmers-market"
+      "id": "feilding-farmers-market",
+      "member": true
     },
     {
       "name": "Harbourside Market",
@@ -362,7 +398,8 @@ window.MARKETS = {
         "https://wellington.govt.nz/news-and-events/news-and-information/our-wellington/2020/11/why-we-love-harbourside-market"
       ],
       "notes": "",
-      "id": "harbourside-market"
+      "id": "harbourside-market",
+      "member": false
     },
     {
       "name": "Hill Street Farmers' Market",
@@ -377,7 +414,8 @@ window.MARKETS = {
         "https://www.myguidewellington.com/usefulinfo/wellington-weekly-markets"
       ],
       "notes": "",
-      "id": "hill-street-farmers-market"
+      "id": "hill-street-farmers-market",
+      "member": false
     },
     {
       "name": "Riverbank Market",
@@ -392,7 +430,8 @@ window.MARKETS = {
         "https://www.theurbanlist.com/nz/a-list/markets-wellington"
       ],
       "notes": "Published hours conflict.",
-      "id": "riverbank-market"
+      "id": "riverbank-market",
+      "member": false
     },
     {
       "name": "Nelson Farmers' Market",
@@ -404,10 +443,12 @@ window.MARKETS = {
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.nelsontasman.nz/visit-nelson-tasman/things-to-see-and-do/3031-nelson-farmers-market"
       ],
       "notes": "",
-      "id": "nelson-farmers-market"
+      "id": "nelson-farmers-market",
+      "member": true
     },
     {
       "name": "Marlborough Farmers' Market",
@@ -415,14 +456,16 @@ window.MARKETS = {
       "town": "Blenheim",
       "day": "Sunday",
       "time": "9am – 12pm",
-      "venue": "Cnr Alabama & Maxwell Rds",
+      "venue": "A&P Showgrounds, cnr Alabama & Maxwell Rds",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://MarlboroughNZ.com/explore-marlborough/food-drink/local-markets/"
       ],
       "notes": "",
-      "id": "marlborough-farmers-market"
+      "id": "marlborough-farmers-market",
+      "member": true
     },
     {
       "name": "Christchurch Farmers' Market",
@@ -437,7 +480,8 @@ window.MARKETS = {
         "https://www.christchurchnz.com/visit/eat-and-drink/canterbury-farmers-markets-artisan-producers"
       ],
       "notes": "",
-      "id": "christchurch-farmers-market"
+      "id": "christchurch-farmers-market",
+      "member": false
     },
     {
       "name": "Lyttelton Farmers' Market",
@@ -446,13 +490,15 @@ window.MARKETS = {
       "day": "Saturday",
       "time": "10am – 1pm",
       "venue": "London St",
-      "status": "check",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://cityscape-christchurch.co.nz/blog/food-drink/entry/the-freshest-farmers-markets-in-otautahi"
       ],
-      "notes": "Some sources say from 9am.",
-      "id": "lyttelton-farmers-market"
+      "notes": "",
+      "id": "lyttelton-farmers-market",
+      "member": true
     },
     {
       "name": "South Christchurch Farmers' Market",
@@ -467,7 +513,8 @@ window.MARKETS = {
         "https://ccc.govt.nz/news-and-events/whats-on/event/south-christchurch-farmers-market"
       ],
       "notes": "Formerly Ōpāwa Farmers' Market.",
-      "id": "south-christchurch-farmers-market"
+      "id": "south-christchurch-farmers-market",
+      "member": false
     },
     {
       "name": "Timaru Artisan Farmers' Market",
@@ -482,7 +529,8 @@ window.MARKETS = {
         "https://www.christchurchnz.com/visit/eat-and-drink/canterbury-farmers-markets-artisan-producers"
       ],
       "notes": "",
-      "id": "timaru-artisan-farmers-market"
+      "id": "timaru-artisan-farmers-market",
+      "member": false
     },
     {
       "name": "Akaroa Farmers' Market",
@@ -497,22 +545,25 @@ window.MARKETS = {
         "https://www.christchurchnz.com/visit/eat-and-drink/canterbury-farmers-markets-artisan-producers"
       ],
       "notes": "",
-      "id": "akaroa-farmers-market"
+      "id": "akaroa-farmers-market",
+      "member": false
     },
     {
-      "name": "Ashburton Farmers' Market",
+      "name": "Ashburton District Farmers' Market",
       "region": "Canterbury",
       "town": "Ashburton",
       "day": "Saturday",
-      "time": "Morning",
-      "venue": "Ashburton",
-      "status": "check",
+      "time": "9am – 12:30pm",
+      "venue": "Cnr West & Havelock Sts",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.christchurchnz.com/visit/eat-and-drink/canterbury-farmers-markets-artisan-producers"
       ],
-      "notes": "Hours not found.",
-      "id": "ashburton-farmers-market"
+      "notes": "",
+      "id": "ashburton-farmers-market",
+      "member": true
     },
     {
       "name": "Otago Farmers' Market",
@@ -520,15 +571,17 @@ window.MARKETS = {
       "town": "Dunedin",
       "day": "Saturday",
       "time": "8am – 12:30pm",
-      "venue": "Dunedin Railway Station, Anzac Ave",
+      "venue": "Northern Carpark, Dunedin Railway Station, Anzac Square",
       "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://otagofarmersmarket.org.nz/",
         "https://neatplaces.co.nz/places/dunedin/stay-explore/otago-farmers-market"
       ],
       "notes": "",
-      "id": "otago-farmers-market"
+      "id": "otago-farmers-market",
+      "member": true
     },
     {
       "name": "Oamaru Farmers' Market",
@@ -543,7 +596,8 @@ window.MARKETS = {
         "https://www.rankers.co.nz/experiences/10083-Oamaru_Farmers_Market"
       ],
       "notes": "",
-      "id": "oamaru-farmers-market"
+      "id": "oamaru-farmers-market",
+      "member": false
     },
     {
       "name": "Southern Farmers' Market",
@@ -551,14 +605,81 @@ window.MARKETS = {
       "town": "Invercargill",
       "day": "Sunday",
       "time": "9:30am – 1:30pm",
-      "venue": "Railway Station, Leven St",
-      "status": "check",
+      "venue": "Invercargill Railway Station, Leven St",
+      "status": "listed",
       "lastChecked": "2026-11-23",
       "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://lwb.co.nz/content/free-markets/"
       ],
-      "notes": "Times from a travel blog.",
-      "id": "southern-farmers-market"
+      "notes": "",
+      "id": "southern-farmers-market",
+      "member": true
+    },
+    {
+      "id": "whangarei-growers-market",
+      "name": "Whangārei Growers Market",
+      "region": "Northland",
+      "town": "Whangārei",
+      "day": "Saturday",
+      "time": "6am – 10am",
+      "venue": "17 Water St",
+      "status": "listed",
+      "member": true,
+      "lastChecked": "2026-11-23",
+      "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "matakana-village-farmers-market",
+      "name": "Matakana Village Farmers' Market",
+      "region": "Auckland",
+      "town": "Matakana",
+      "day": "Saturday",
+      "time": "8am – 1pm",
+      "venue": "2 Matakana Valley Rd",
+      "status": "listed",
+      "member": true,
+      "lastChecked": "2026-11-23",
+      "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "amberley-farmers-market",
+      "name": "Amberley Farmers Market",
+      "region": "Canterbury",
+      "town": "Amberley",
+      "day": "Saturday",
+      "time": "9am – 12:30pm",
+      "venue": "Outside Hurunui District Council, Carters Rd (SH1)",
+      "status": "listed",
+      "member": true,
+      "lastChecked": "2026-11-23",
+      "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mount-pleasant-farmers-market",
+      "name": "Mount Pleasant Farmers' Market",
+      "region": "Canterbury",
+      "town": "Mount Pleasant",
+      "day": "Saturday",
+      "time": "9:30am – 12:30pm",
+      "venue": "3 McCormacks Bay Rd",
+      "status": "listed",
+      "member": true,
+      "lastChecked": "2026-11-23",
+      "sources": [
+        "https://www.farmersmarkets.org.nz/find-a-market/"
+      ],
+      "notes": ""
     }
-  ]
+  ],
+  "primarySource": "https://www.farmersmarkets.org.nz/find-a-market/"
 };
