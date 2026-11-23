@@ -12,15 +12,15 @@ window.DIRECTORY = {
     }
   ],
   stalls: [
-    { name: "Placeholder Orchard", photo: "images/orchard.svg", market: "pilot-market", category: "Fruit & veg",
+    { name: "Placeholder Orchard", photo: "images/orchard.jpg", market: "pilot-market", category: "Fruit & veg",
       sells: "Heirloom apples, plums, seasonal fruit",
       brief: "Third-generation growers. Replace this with two honest sentences about who they are and why people queue for them.",
       tags: ["Spray-free", "Family run"], sponsored: true },
-    { name: "Placeholder Bakehouse", photo: "images/bakehouse.svg", market: "pilot-market", category: "Bakery",
+    { name: "Placeholder Bakehouse", photo: "images/bakehouse.jpg", market: "pilot-market", category: "Bakery",
       sells: "Long-ferment sourdough, seeded loaves",
       brief: "Baked at 3am, sold by 8. Short brief about the baker goes here.",
       tags: ["Small batch"], sponsored: false },
-    { name: "Placeholder Hives", photo: "images/hives.svg", market: "pilot-market", category: "Pantry",
+    { name: "Placeholder Hives", photo: "images/hives.jpg", market: "pilot-market", category: "Pantry",
       sells: "Raw honey, comb, beeswax candles",
       brief: "One beekeeper, forty hives. Tell the story in a line or two.",
       tags: ["Raw", "Local"], sponsored: false },
