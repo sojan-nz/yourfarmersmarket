@@ -2,6 +2,7 @@
 // status: "listed" = consistent recent source; "check" = old, partial or conflicting info.
 // member: true = Farmers Markets NZ member (primary source: farmersmarkets.org.nz).
 // lat/lng are approximate town-centre coordinates, used only to sort by distance.
+// notes = shown publicly to shoppers. internal = research notes (broken links, source quality); never shown.
 // Updated weekly via a reviewed pull request; never edited straight on main.
 window.MARKETS = {
   "updated": "2026-11-23",
@@ -46,13 +47,14 @@ window.MARKETS = {
         "https://northlandnz.com/listing/bay-of-islands-farmers-markets",
         "https://nzherald.co.nz/travel/farm-fresh-in-the-bay-of-islands/BYYTJKPINJOUI3OUDUYDKAIDQQ"
       ],
-      "notes": "The market's website had a security certificate error when checked.",
+      "notes": "",
       "id": "bay-of-islands-farmers-market",
       "member": true,
       "website": null,
       "facts": [],
       "lat": -35.227,
-      "lng": 173.947
+      "lng": 173.947,
+      "internal": "The market's website had a security certificate error when checked."
     },
     {
       "name": "Bay of Islands Farmers' Market, Paihia",
@@ -73,7 +75,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -35.282,
-      "lng": 174.091
+      "lng": 174.091,
+      "internal": ""
     },
     {
       "name": "Parnell Farmers' Market",
@@ -94,7 +97,8 @@ window.MARKETS = {
       "website": "https://www.facebook.com/parnellfarmersmarket/",
       "facts": [],
       "lat": -36.855,
-      "lng": 174.782
+      "lng": 174.782,
+      "internal": ""
     },
     {
       "name": "Matakana Country Market",
@@ -114,7 +118,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -36.35,
-      "lng": 174.716
+      "lng": 174.716,
+      "internal": ""
     },
     {
       "name": "Grey Lynn Farmers' Market",
@@ -139,7 +144,8 @@ window.MARKETS = {
         "Every Sunday morning"
       ],
       "lat": -36.86,
-      "lng": 174.737
+      "lng": 174.737,
+      "internal": ""
     },
     {
       "name": "Catalina Bay Farmers' Market",
@@ -153,13 +159,14 @@ window.MARKETS = {
       "sources": [
         "https://www.dalan.co.nz/page/361125"
       ],
-      "notes": "Hours from a 2025 vendor listing.",
+      "notes": "",
       "id": "catalina-bay-farmers-market",
       "member": false,
       "website": null,
       "facts": [],
       "lat": -36.794,
-      "lng": 174.664
+      "lng": 174.664,
+      "internal": "Hours from a 2025 vendor listing."
     },
     {
       "name": "The Clevedon Village Farmers' Market",
@@ -183,7 +190,8 @@ window.MARKETS = {
         "Every Sunday except over Christmas and Easter Sunday"
       ],
       "lat": -36.993,
-      "lng": 175.039
+      "lng": 175.039,
+      "internal": ""
     },
     {
       "name": "Karangahape Farmers' Market",
@@ -197,13 +205,14 @@ window.MARKETS = {
       "sources": [
         "https://www.aucklandnz.com/events/all-events/karangahape-farmers-market"
       ],
-      "notes": "2026 season listed 12 Sep – 14 Nov.",
+      "notes": "Seasonal market. The 2026 season ran 12 Sep – 14 Nov.",
       "id": "karangahape-farmers-market",
       "member": false,
       "website": null,
       "facts": [],
       "lat": -36.858,
-      "lng": 174.758
+      "lng": 174.758,
+      "internal": ""
     },
     {
       "name": "The Village Farmers' Market at Bell House",
@@ -223,7 +232,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -36.912,
-      "lng": 174.873
+      "lng": 174.873,
+      "internal": ""
     },
     {
       "name": "Hamilton Farmers' Market",
@@ -249,7 +259,8 @@ window.MARKETS = {
         "Celebrated 20 years in March 2026"
       ],
       "lat": -37.787,
-      "lng": 175.279
+      "lng": 175.279,
+      "internal": ""
     },
     {
       "name": "Cambridge Farmers' Market",
@@ -274,7 +285,8 @@ window.MARKETS = {
         "Runs year-round"
       ],
       "lat": -37.885,
-      "lng": 175.471
+      "lng": 175.471,
+      "internal": ""
     },
     {
       "name": "Tauranga Farmers' Market",
@@ -295,7 +307,8 @@ window.MARKETS = {
       "website": "https://taurangafarmersmarket.co.nz/",
       "facts": [],
       "lat": -37.687,
-      "lng": 176.165
+      "lng": 176.165,
+      "internal": ""
     },
     {
       "name": "Katikati Sunday Farmers' Market",
@@ -310,13 +323,14 @@ window.MARKETS = {
         "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://www.nzherald.co.nz/bay-of-plenty-times/katikati-advertiser/western-bay-of-plenty-farmers-markets-set-to-flourish-with-the-return-the-waihi-beach-event-and-introducing-the-new-katikati-sunday-farmers-market/3C3KAUXXUJBVPJI4K2CMU7H3DM"
       ],
-      "notes": "The market's website appears to have expired. Check its Facebook page for updates.",
+      "notes": "",
       "id": "katikati-sunday-farmers-market",
       "member": true,
       "website": null,
       "facts": [],
       "lat": -37.552,
-      "lng": 175.917
+      "lng": 175.917,
+      "internal": "The market's website appears to have expired. Check its Facebook page for updates."
     },
     {
       "name": "Waihī Beach Farmers' Market",
@@ -330,13 +344,14 @@ window.MARKETS = {
       "sources": [
         "https://nzherald.co.nz/bay-of-plenty-times/news/waihi-beach-in-the-market-for-fresh-produce/JRFSG6YBKBBNVHRFXFLEJMPQPU"
       ],
-      "notes": "Hours not found.",
+      "notes": "",
       "id": "waihi-beach-farmers-market",
       "member": false,
       "website": null,
       "facts": [],
       "lat": -37.405,
-      "lng": 175.938
+      "lng": 175.938,
+      "internal": "Hours not found."
     },
     {
       "name": "Gisborne Farmers' Market",
@@ -357,7 +372,8 @@ window.MARKETS = {
       "website": "https://www.gisbornefarmersmarket.co.nz/",
       "facts": [],
       "lat": -38.662,
-      "lng": 178.018
+      "lng": 178.018,
+      "internal": ""
     },
     {
       "name": "Hawke's Bay Farmers' Market",
@@ -381,7 +397,8 @@ window.MARKETS = {
         "Runs special one-off events, such as 'Harvested on the Green' in Havelock North"
       ],
       "lat": -39.639,
-      "lng": 176.84
+      "lng": 176.84,
+      "internal": ""
     },
     {
       "name": "Napier Urban Farmers' Market",
@@ -397,7 +414,7 @@ window.MARKETS = {
         "https://www.nzherald.co.nz/hawkes-bay-today/news/napier-urban-farmers-market-celebrates-20-years/IXJMZOKEJZGGTB44IGOJ54TG3I",
         "https://hawkesbayfarmersmarket.co.nz/visit-us-napier-urban-farmers-market/"
       ],
-      "notes": "Used a temporary venue for most of 2026 and says it is returning to its original spot between Clive and Memorial Squares. Check the exact location.",
+      "notes": "The venue has moved during 2026, so check the location before you go.",
       "id": "napier-urban-farmers-market",
       "member": true,
       "website": "https://hawkesbayfarmersmarket.co.nz/visit-us-napier-urban-farmers-market/",
@@ -407,7 +424,8 @@ window.MARKETS = {
         "Street parking nearby"
       ],
       "lat": -39.49,
-      "lng": 176.912
+      "lng": 176.912,
+      "internal": ""
     },
     {
       "name": "Farmers Market Taranaki",
@@ -433,7 +451,8 @@ window.MARKETS = {
         "Live local music; mix of EFTPOS and cash stalls"
       ],
       "lat": -39.057,
-      "lng": 174.075
+      "lng": 174.075,
+      "internal": ""
     },
     {
       "name": "Whanganui River Markets",
@@ -454,7 +473,8 @@ window.MARKETS = {
       "website": "https://www.facebook.com/WhanganuiRiverMarkets/",
       "facts": [],
       "lat": -39.93,
-      "lng": 175.05
+      "lng": 175.05,
+      "internal": ""
     },
     {
       "name": "Hokowhitu Village Farmers' Market",
@@ -474,7 +494,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -40.356,
-      "lng": 175.611
+      "lng": 175.611,
+      "internal": ""
     },
     {
       "name": "Feilding Farmers' Market",
@@ -500,7 +521,8 @@ window.MARKETS = {
         "Running for 15+ years; NZ Farmers Market of the Year 2012–2014"
       ],
       "lat": -40.226,
-      "lng": 175.565
+      "lng": 175.565,
+      "internal": ""
     },
     {
       "name": "Harbourside Market",
@@ -520,7 +542,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -41.289,
-      "lng": 174.777
+      "lng": 174.777,
+      "internal": ""
     },
     {
       "name": "Hill Street Farmers' Market",
@@ -540,7 +563,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -41.276,
-      "lng": 174.776
+      "lng": 174.776,
+      "internal": ""
     },
     {
       "name": "Riverbank Market",
@@ -554,13 +578,14 @@ window.MARKETS = {
       "sources": [
         "https://www.theurbanlist.com/nz/a-list/markets-wellington"
       ],
-      "notes": "Published hours conflict.",
+      "notes": "",
       "id": "riverbank-market",
       "member": false,
       "website": null,
       "facts": [],
       "lat": -41.209,
-      "lng": 174.908
+      "lng": 174.908,
+      "internal": "Published hours conflict."
     },
     {
       "name": "Nelson Farmers' Market",
@@ -576,7 +601,7 @@ window.MARKETS = {
         "https://www.nelsontasman.nz/visit-nelson-tasman/things-to-see-and-do/3031-nelson-farmers-market",
         "https://www.nelsonfarmersmarket.org.nz/"
       ],
-      "notes": "The market's own site shows both 8am and 8:30am start times.",
+      "notes": "",
       "id": "nelson-farmers-market",
       "member": true,
       "website": "https://www.nelsonfarmersmarket.org.nz/",
@@ -585,7 +610,8 @@ window.MARKETS = {
         "Next to the Elma Turner Library"
       ],
       "lat": -41.271,
-      "lng": 173.284
+      "lng": 173.284,
+      "internal": "The market's own site shows both 8am and 8:30am start times."
     },
     {
       "name": "Marlborough Farmers' Market",
@@ -611,7 +637,8 @@ window.MARKETS = {
         "Free stall for community groups and charities"
       ],
       "lat": -41.514,
-      "lng": 173.96
+      "lng": 173.96,
+      "internal": ""
     },
     {
       "name": "Christchurch Farmers' Market",
@@ -631,7 +658,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -43.53,
-      "lng": 172.597
+      "lng": 172.597,
+      "internal": ""
     },
     {
       "name": "Lyttelton Farmers' Market",
@@ -646,13 +674,14 @@ window.MARKETS = {
         "https://www.farmersmarkets.org.nz/find-a-market/",
         "https://cityscape-christchurch.co.nz/blog/food-drink/entry/the-freshest-farmers-markets-in-otautahi"
       ],
-      "notes": "The website link on the FMNZ directory returns a page-not-found error.",
+      "notes": "",
       "id": "lyttelton-farmers-market",
       "member": true,
       "website": null,
       "facts": [],
       "lat": -43.603,
-      "lng": 172.72
+      "lng": 172.72,
+      "internal": "The website link on the FMNZ directory returns a page-not-found error."
     },
     {
       "name": "South Christchurch Farmers' Market",
@@ -672,7 +701,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -43.556,
-      "lng": 172.664
+      "lng": 172.664,
+      "internal": ""
     },
     {
       "name": "Timaru Artisan Farmers' Market",
@@ -692,7 +722,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -44.396,
-      "lng": 171.254
+      "lng": 171.254,
+      "internal": ""
     },
     {
       "name": "Akaroa Farmers' Market",
@@ -712,7 +743,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -43.804,
-      "lng": 172.968
+      "lng": 172.968,
+      "internal": ""
     },
     {
       "name": "Ashburton District Farmers' Market",
@@ -733,7 +765,8 @@ window.MARKETS = {
       "website": "https://www.facebook.com/ashburtondistrictfarmersmarket/",
       "facts": [],
       "lat": -43.904,
-      "lng": 171.746
+      "lng": 171.746,
+      "internal": ""
     },
     {
       "name": "Otago Farmers' Market",
@@ -758,7 +791,8 @@ window.MARKETS = {
         "Market chef cooking demos with samples"
       ],
       "lat": -45.874,
-      "lng": 170.504
+      "lng": 170.504,
+      "internal": ""
     },
     {
       "name": "Oamaru Farmers' Market",
@@ -778,7 +812,8 @@ window.MARKETS = {
       "website": null,
       "facts": [],
       "lat": -45.097,
-      "lng": 170.971
+      "lng": 170.971,
+      "internal": ""
     },
     {
       "name": "Southern Farmers' Market",
@@ -802,7 +837,8 @@ window.MARKETS = {
         "Rain or shine, every Sunday"
       ],
       "lat": -46.413,
-      "lng": 168.353
+      "lng": 168.353,
+      "internal": ""
     },
     {
       "id": "whangarei-growers-market",
@@ -822,7 +858,8 @@ window.MARKETS = {
       "website": "https://www.facebook.com/thewhangareigrowersmarket/",
       "facts": [],
       "lat": -35.725,
-      "lng": 174.323
+      "lng": 174.323,
+      "internal": ""
     },
     {
       "id": "matakana-village-farmers-market",
@@ -845,7 +882,8 @@ window.MARKETS = {
         "Every Saturday"
       ],
       "lat": -36.35,
-      "lng": 174.716
+      "lng": 174.716,
+      "internal": ""
     },
     {
       "id": "amberley-farmers-market",
@@ -870,7 +908,8 @@ window.MARKETS = {
         "Celebrating 20 years"
       ],
       "lat": -43.155,
-      "lng": 172.731
+      "lng": 172.731,
+      "internal": ""
     },
     {
       "id": "mount-pleasant-farmers-market",
@@ -890,7 +929,8 @@ window.MARKETS = {
       "website": "https://www.facebook.com/MtPleasantFarmersMarket/",
       "facts": [],
       "lat": -43.566,
-      "lng": 172.727
+      "lng": 172.727,
+      "internal": ""
     }
   ],
   "primarySource": "https://www.farmersmarkets.org.nz/find-a-market/"
