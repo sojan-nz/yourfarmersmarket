@@ -3,41 +3,69 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Your Farmers Market</title>
-<meta name="description" content="Find local farmers markets and meet the stallholders before you go.">
+<title>Your Farmers Market — Buy from the people who grew it</title>
+<meta name="description" content="Find local farmers markets and meet the growers, bakers and makers behind every stall. No middleman.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=DM+Sans:wght@400;500;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header><div class="wrap">
-  <a class="logo" href="#">Your Farmers Market</a>
-  <nav><a href="#markets">Markets</a><a href="#feature">Feature your stall</a></nav>
+<header class="top"><div class="wrap bar">
+  <a class="logo" href="#top"><svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><circle cx="16" cy="19" r="10" fill="#c4512d"/><path d="M16 9c-1-4 2-7 6-7-1 4-3 6-6 7z" fill="#5d7a3a"/></svg>Your Farmers Market</a>
+  <nav><a href="#how">How it works</a><a href="#stalls-section">Stalls</a><a class="pill" href="#feature">For stallholders</a></nav>
 </div></header>
-<main class="wrap">
-  <section class="hero">
-    <h1>Know who's at the market before you go.</h1>
-    <p>A local guide to farmers markets and the people behind the stalls: what they sell, who they are, and why they're worth a visit.</p>
-    <a class="btn" href="#markets">Browse markets</a>
-  </section>
-  <section>
-    <h2>Markets</h2>
-    <div id="markets"></div>
-  </section>
-  <section id="feature">
-    <div class="sponsor">
-      <h2>Feature your stall</h2>
-      <p>Run a stall? Get a featured profile so shoppers find you first.</p>
-      <ul>
-        <li>Highlighted listing at your market</li>
-        <li>A short profile written about you and your produce</li>
-        <li>Pricing and details: TBD</li>
-      </ul>
-      <!-- TODO: replace with a real contact address or form once set up -->
-      <a class="btn" href="mailto:hello@yourfarmersmarket.co.nz">Get in touch</a>
-    </div>
-  </section>
+
+<main id="top">
+<section class="hero"><div class="wrap hero-grid">
+  <div>
+    <p class="eyebrow">Local · Seasonal · Direct</p>
+    <h1>Buy from the people <em>who grew it.</em></h1>
+    <p class="lede">No supermarket. No middleman. Find your nearest farmers market, meet the growers and makers behind every stall, and know exactly what's worth the early start.</p>
+    <div class="cta"><a class="btn" href="#stalls-section">Meet the stalls</a><a class="btn ghost" href="#how">How it works</a></div>
+  </div>
+  <div class="art" aria-hidden="true">
+    <div class="stamp"><svg viewBox="0 0 160 160"><defs><path id="c" d="M80,80 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/></defs><text><textPath href="#c" startOffset="0" textLength="352" lengthAdjust="spacing">NO MIDDLEMAN ✦ GROWER TO YOU ✦</textPath></text></svg><b>Fresh<br>from<br>source</b></div>
+    <div class="crate"><span class="tom"></span><span class="tom t2"></span><span class="leaf"></span><span class="car"></span><span class="egg"></span></div>
+  </div>
+</div></section>
+
+<div class="marquee" aria-hidden="true"><div><span>Heirloom tomatoes</span><span>Sourdough</span><span>Raw honey</span><span>Free-range eggs</span><span>Cut flowers</span><span>Kimchi</span><span>Stone fruit</span><span>Pastured pork</span><span>Heirloom tomatoes</span><span>Sourdough</span><span>Raw honey</span><span>Free-range eggs</span><span>Cut flowers</span><span>Kimchi</span><span>Stone fruit</span><span>Pastured pork</span></div></div>
+
+<section id="how" class="wrap section">
+  <h2 class="reveal">Three steps to a better Saturday</h2>
+  <ol class="steps">
+    <li class="reveal"><span class="n">1</span><h3>Find your market</h3><p>See what's on, when, and where, before you leave the house.</p></li>
+    <li class="reveal"><span class="n">2</span><h3>Meet the growers</h3><p>Read who's behind each stall and what they're best at.</p></li>
+    <li class="reveal"><span class="n">3</span><h3>Go and say hello</h3><p>Buy direct. Your money goes to the person who made it.</p></li>
+  </ol>
+</section>
+
+<section id="stalls-section" class="band"><div class="wrap section">
+  <div class="head"><div><p class="eyebrow">The directory</p><h2>Who's at the market</h2></div>
+    <aside id="thisweek" class="week reveal"></aside></div>
+  <div class="tools"><label class="sr" for="search">Search stalls</label>
+    <input id="search" type="search" placeholder="Search honey, bread, eggs…" autocomplete="off"><div id="chips" class="chips"></div></div>
+  <div id="stalls" class="grid"></div>
+  <p id="empty" class="empty" hidden>Nothing matches that yet. Try another word or category.</p>
+</div></section>
+
+<section class="manifesto"><div class="wrap">
+  <p class="hand">why bother?</p>
+  <p class="big">Because food tastes better when you know whose hands it came through.</p>
+</div></section>
+
+<section id="feature" class="wrap section">
+  <div class="kraft reveal">
+    <div><p class="eyebrow">Stallholders</p><h2>Get found before the market opens</h2>
+      <p>Run a stall? A featured profile puts you at the top of the directory with a proper write-up of who you are and what you make.</p>
+      <ul><li>Top placement at your market</li><li>A short profile written about you</li><li>Pricing: coming soon</li></ul></div>
+    <a class="btn" href="mailto:hello@yourfarmersmarket.co.nz">Get in touch</a>
+  </div>
+</section>
 </main>
-<footer><div class="wrap">© Your Farmers Market · Listings marked Featured are sponsored.</div></footer>
-<script src="data.js"></script>
-<script src="app.js"></script>
+
+<footer><div class="wrap foot"><span>© Your Farmers Market</span><span>Listings marked Featured are sponsored.</span></div></footer>
+<script src="data.js"></script><script src="app.js"></script>
 </body>
 </html>
